@@ -27,4 +27,4 @@ workflows:
       
       - heroku/deploy-via-git:
           app-name: joke-app-rbessonnier2
-          api-key: $HEROKU_API_KEY
+          api-key: HEROKU_API_KEY
