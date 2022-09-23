@@ -11,11 +11,7 @@ jobs:
       - run: npm run build
       - run: npm test
 
-workflow:
+workflows:
   node-test:
     jobs:
-      - build-test:
-          filters:
-            branches:
-              only:
-                - circleci
+      - build-test
